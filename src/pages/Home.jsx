@@ -53,5 +53,5 @@ export default function Home() {
       <img src={firebase} alt="Firebase"  />
     </div>
     </>
-  );
+  );  
 }
