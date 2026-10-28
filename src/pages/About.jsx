@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar";
- 
+import img1 from "../assets/img1.png";
 export default function About() {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -15,7 +15,7 @@ export default function About() {
  
             {/* TODO: ใส่รูปตรงนี้ (แทนที่ div ด้านล่างด้วย <img src={...} />) */}
             <div className="">
-              <img src="src/assets/img1.png" alt="" />
+              <img src={img1} alt="Profile Image" />
             </div>
           </section>
  
